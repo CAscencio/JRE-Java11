@@ -17,7 +17,7 @@ RUN /opt/java/bin/jlink \
      --output /opt/jdk-11-mini-runtime
  
 FROM alpine:3.8
-LABEL maintainer="lpicanco@gmail.com"
+LABEL maintainer="ascencio.luyo@gmail.com"
 
 RUN apk --update add --no-cache ca-certificates curl openssl binutils xz \
     && GLIBC_VER="2.28-r0" \
