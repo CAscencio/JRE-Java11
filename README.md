@@ -2,10 +2,10 @@
 
 OpenJDK 11 on Alpine with glibc
 
-## How to use this image
+## Pull Image
 
 ```console
-$ docker run --rm lpicanco/java11-alpine java -version
+$ docker pull cascencio/jre-java11:latest
 ```
 
 ### JDK 11 Modules
